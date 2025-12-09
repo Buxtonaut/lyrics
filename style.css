@@ -74,7 +74,7 @@ form input {
 form button {
   position: absolute;
   top: 2px;
-  right: 110px;
+  right: 2px;
   background-color: #e056fd;
   border: 0;
   border-radius: 50px;
@@ -84,11 +84,13 @@ form button {
 }
 
 #reset {
-position: absolute;
-  top: 2px;
-  right: 2px;
+    margin-top: 20px;
     background: #e74c3c;
     color: #fff;
+        font-size: 16px;
+    padding: 13px 30px;
+    border-radius: 50px;
+    border: 0px;
   }
 
 /* Injecting the btn class via JS */
